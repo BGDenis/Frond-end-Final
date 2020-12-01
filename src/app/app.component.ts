@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  activoC1: boolean;
   title = 'BUENO';
 }
+/*
+getByID(coleccion:string, id: any):Observable<any> {
+    return this.getByIDQuuery(coleccion, id).
+      pipe(map(data => {
+        return Object.values(data);
+      }));
+  }*/
